@@ -5,9 +5,50 @@ padding:0px;
 }
 
 .container{
-    max-width:100%;
+    /*max-width:100%;
     min-width:320px;
     max-height:100%;
-    min-height:100px;
-    color:black;
+    min-height:100px;*/
+    width:1920px;
+    height:2716px;
+    background-color:black;
+}
+
+.main{
+    width:850px;
+    height:760px;
+    background-color:white;
+}
+
+.mainCircle{
+  fill:#3d6cb0;
+}
+
+.secondCircle{
+    fill:white;
+    stroke:#3d6cb0;
+    stroke-width:2;
+}
+
+.main__text{
+    width:850px;
+    height:165px;
+    background-color:white;
+}
+
+.name{
+    font-size:81px;
+    padding-left:200px;
+}
+
+.surname{
+    font-size:95px;
+    font-style:bold;
+    padding-left:200px;
+}
+
+.prof{
+    font-size:39px;
+    font-size:bold;
+    padding-left:250px;
 }
