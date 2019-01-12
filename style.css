@@ -15,10 +15,28 @@ padding:0px;
 }
 
 .main{
+    float:left;
     width:850px;
     height:760px;
     background-color:white;
 }
+
+.half{
+    margin-bottom:-100px;
+    margin-left:60px;
+    height:20px;
+    overflow:hidden;
+}
+
+.half-circle{
+    background:white;
+    width:35px;
+    height:35px;
+    border: 2px solid #3d6cb0;
+    border-radius: 100% 100% 0 0 ;
+}
+
+
 
 .mainCircle{
   fill:#3d6cb0;
@@ -30,25 +48,193 @@ padding:0px;
     stroke-width:2;
 }
 
+.main__svg{
+    float:left;
+}
+
 .main__text{
+    float:left;
     width:850px;
-    height:165px;
+    height:210px;
     background-color:white;
 }
 
-.name{
+.main__text-name{
+    float:left;
     font-size:81px;
+    font-size:71px;
     padding-left:200px;
+    padding-left:220px;
 }
 
-.surname{
+.main__text-surname{
+    float:left;
     font-size:95px;
-    font-style:bold;
+    font-size:83px;
+    font-weight:bold;
     padding-left:200px;
+    padding-left:220px;
 }
 
-.prof{
+.main__text-prof{
+    float:left;
     font-size:39px;
-    font-size:bold;
+    font-size:35px;
+    font-weight:bold;
     padding-left:250px;
+    padding-left:265px;
+}
+
+.education{
+    float:right;
+    width:1070px;
+    height:1100px;
+    background-color:white;
+  }
+
+.education__svgcircle{
+    float:left;
+    width:120px;
+    height:120px;
+    margin-top:120px;
+}
+
+.education__title{
+    float:left;
+    margin-top:120px;
+    font-size:60px;
+    font-weight:bold;
+    color:#3d6cb0;
+    padding-top:15px;
+}
+
+.education__svgline{
+    float:left;
+    margin-top:70px;
+    width:570px;
+}
+ 
+.education__p1{
+  float:left;
+}
+
+.education__p2{
+  float:left;
+}
+
+.education__p3{
+  float:left; 
+}
+
+.education_p4{
+    float:left;
+}
+
+
+.education__p-svgcircle{
+    float:left;
+    fill:black;
+    margin-top:5px;
+    padding-left:20px;
+  }
+  
+  .education__p-master{
+      float:left;
+      font-size:45px;
+      font-weight:bold;
+      color:#3d6cb0;
+      margin-left:-240px;
+      margin-top:10px;
+  }
+  
+  .education__p-date{
+      float:left;
+      font-size:45px;
+      margin-top:10px;
+      margin-left:15px;
+  }
+  
+  .education__p-name{
+      float:left;
+      font-size:45px;
+      margin-left:-240px;
+      margin-top:5px;
+  }
+  
+  .education__p-text{
+      float:left;
+      font-size:23px;
+      margin-left:85px;
+      margin-right:50px;
+      margin-top:-25px;
+  }
+
+.profile{
+  float:left;
+  width:850px;
+  height:630px;
+  background-color:white;
+}
+
+.profile__svgcircle{
+    float:left;
+    width:220px; 
+    height:260px;
+}
+
+.profile__title{
+    float:left;
+    font-size:60px;
+    font-weight:bold;
+    color:#3d6cb0;
+    padding-top:65px;
+    margin-left:-50px;
+}
+
+.profile__svgline{
+    float:left;
+}
+
+.profile__text{
+  float:left;
+  font-size:23px;
+  padding-left:70px;
+  padding-right:125px;
+  margin-top:-100px;
+}
+
+.profile__text-bold{
+    font-weight:bold;
+}
+
+.experience{
+    float:right;
+    width:1070px;
+    height:950px;
+    background-color:red;
+}
+
+.contact{
+    float:left;
+    width:850px;
+    height:600px;
+    background-color:blue;
+}
+
+.img{
+    transform:scale(0.05,0.05) rotate(90deg);
+}
+
+.skills{
+    float:left;
+    width:850px;
+    height:640px;
+    background-color:brown;
+}
+
+.software{
+    float:right;
+    width:1070px;
+    height:580px;
+    background-color:orange;
 }
