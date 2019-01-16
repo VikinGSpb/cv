@@ -1,17 +1,115 @@
-body{
+html,body{
 font-family: 'PT Sans', sans-serif;
-margin:0px;
-padding:0px;
+margin:0;
+padding:0;
+width:100vw;
+font-size:85px;
+overflow-x: hidden;
 }
 
+.container{
+    background-color:white;
+    width:100%;
+}
+
+.left{
+    width:43.75%;
+    float:left;
+}
+
+.right{
+    width:56.25%;
+    float:right;
+}
+
+.mainCircle{
+    fill:#3d6cb0;
+}
+  
+.secondCircle{
+    fill:white;
+    stroke:#3d6cb0;
+    stroke-width:0.15vh;
+}
+
+.title{
+    font-size:0.69rem;
+    color:#3d6cb0;
+    font-weight: bold;
+    float:left;
+}
+
+.line{
+    float:left;
+    stroke:#3d6cb0; 
+    stroke-width:0.1rem;
+}
+
+.main__svgCircle{
+    width:100%;
+    height:52vh;
+  }
+
+.main__text{
+    float:left;
+    width:100%;
+    text-align:center;
+}
+
+.main__text-name{
+    padding-top:2%;
+    padding-left:1.8%;
+    font-size:0.9rem;
+}
+
+.main__text-surname{
+    font-size:1rem;
+    font-weight:bold;
+    margin-top:-1.5%;
+}
+
+.main__text-prof{
+    font-size:0.4rem;
+    font-weight:bold;
+    padding-top:1.7%;
+    padding-left:1.6%;
+}
+
+.education{
+  height:117vh;
+}
+
+.education__svgCircle{
+    float:left;
+    width:15%;
+    margin-top:9%;
+}
+
+.education__title{
+    margin-top:13%;
+}
+
+.education__line{
+    width:45.9%;
+    margin-top:6.5%;
+    padding-left:0.3%;
+}
+
+
+
+
+
+
+
+/*
 .container{
     /*max-width:100%;
     min-width:320px;
     max-height:100%;
-    min-height:100px;*/
+    min-height:100px;
     width:1920px;
     height:2716px;
-    background-color:black;
+    background-color:white;
 }
 
 .main{
@@ -443,5 +541,43 @@ padding:0px;
     float:right;
     width:1070px;
     height:580px;
-    background-color:orange;
+    background-color:white;
 }
+
+.software__svgcircle{
+    float:left;
+    width:330px;
+}
+
+.software__title{
+    float:left;
+    font-size:57px;
+    font-weight:bold;
+    color:#3d6cb0;
+    padding-top:28px;
+    margin-left:-183px;
+}
+
+.software__svgline{
+    float:left;
+}
+
+.software__b-left{
+    float:left;
+    width:50%;
+    height:23.5%;
+}
+
+.software__text{
+    float:left;
+    font-size:38px;
+    margin-top:4px;
+    padding-left:12px;
+  }
+
+  .software__b-right{
+      float:right;
+      width:49.5%;
+      height:23.5%;
+      margin-left:0.5%;
+  }*/
