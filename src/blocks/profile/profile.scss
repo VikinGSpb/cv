@@ -1,0 +1,42 @@
+.profile{
+    margin-bottom:1.6%;
+  }
+  
+  .profile__svgCircle{
+      float:left;
+      width:208px;
+      margin-top:11%;
+  /*    background:url('phone-solid.svg');
+      background-size:100px 82px;*/
+  }
+  
+  .profile__title{
+      margin-top:17%;
+      padding-left:1.8%;
+  }
+  
+  
+  .profile__line{
+      width: 30.9%;
+      background:#3d6cb0; 
+      float:left;
+      margin-top:20.5%;
+      margin-left:1%;
+  }
+  .profile__line:before{
+      content: "";
+      display: block;
+      padding-top:3.1%;
+  }
+  
+  .profile__text{
+      float:left;
+      font-size:0.26rem;
+      padding-left:11.3%;
+      margin-top:1%;
+      padding-right:12.9%;
+  }
+  
+  .profile__span{
+      line-height:0.342rem;
+  }

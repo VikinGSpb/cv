@@ -1,0 +1,63 @@
+.experience__svgCircle{
+    float:left;
+    width:149px;
+    margin-top:6.1%;
+}
+
+.experience__title{
+    margin-top:9.8%;
+    padding-left:1.2%;
+}
+
+.experience__line{
+    width: 41.3%;
+    background:#3d6cb0; 
+    float:left;
+    margin-top:12.6%;
+    margin-left:1.1%;
+}
+.experience__line:before{
+    content: "";
+    display: block;
+    padding-top:1.8%;
+}
+
+.experience__p{
+    float:left;
+    margin-bottom:-1.8%;
+}
+
+.experience__p-svgCircle{
+    float:left;
+}
+
+.experience__p-name{
+    float:left;
+    font-size:0.45rem;
+    font-weight: bold;
+    padding-top:4%;
+    margin-left:-18.8%;
+}
+
+.experience__p-date{
+    float:left;
+    font-size:0.45rem;
+    padding-top:4.1%;
+    padding-left:1%;
+}
+
+.experience__p-job{
+    float:left;
+    font-size:0.45rem;
+    width:100%;
+    margin-top:-5%;
+    padding-left:9.2%;
+}
+
+.experience__p-text{
+    float:left;
+    font-size:0.27rem;
+    padding-left:9.6%;
+    margin-top:0.12%;
+    padding-right:5.1%;
+}

@@ -1,0 +1,15 @@
+extends pug/index
+
+block title 
+    title(cv1)
+
+block content
+    div(class="container__left")
+        include blocks\main\main
+        include blocks\profile\profile
+        include blocks\contact\contact
+        include blocks/skills/skills
+    div(class="container__right")
+        include blocks\education\education
+        include blocks\experience\experience
+        include blocks\software\software
